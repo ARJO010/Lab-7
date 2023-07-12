@@ -81,7 +81,7 @@ def populate_people_table():
             fake.city(),
             fake.administrative_unit(),
             fake.text(),
-            fake.random_i(min=1, max=100),
+            fake.random_int(min=1, max=100),
             datetime.now(),
             datetime.now()
             )
