@@ -85,7 +85,7 @@ def populate_people_table():
             datetime.now(),
             datetime.now()
             )
-    cur.execute(add_person_query, new_persons)
+        cur.execute(add_person_query, new_persons)
     con.commit()
     con.close()
 
